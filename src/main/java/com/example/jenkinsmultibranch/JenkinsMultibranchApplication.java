@@ -15,6 +15,11 @@ public class JenkinsMultibranchApplication {
 		return "Hello Jenkins";
 	}
 
+	@GetMapping("/goodbye")
+	public String goodbye() {
+		return "goodbye Jenkins";
+	}
+
 
 
 	public static void main(String[] args) {
